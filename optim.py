@@ -81,9 +81,3 @@ max_discharge_power = 5 # maximum power in KW that battery can be discharged at
 efficiency = 0.95
 
 result = optimize_power_consumption(battery_capacity, hourly_prices, initial_soc, final_energy_value_per_kwh, hourly_consumption, efficiency, cost_of_cycle_kwh, max_charge_power, max_discharge_power)
-
-print()
-print()
-print("Optimization results")
-
-
